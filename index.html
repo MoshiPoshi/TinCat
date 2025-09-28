@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/gif" href="./images/favicon.gif" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <title>TinCat</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-chat-square-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                />
+                <path
+                  d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"
+                />
+              </svg>
+            </a>
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+              <li>
+                <a href="#features" class="nav-link px-2 text-white"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a href="#pricing" class="nav-link px-2 text-white">Pricing</a>
+              </li>
+              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input
+                type="search"
+                class="form-control form-control-dark text-bg-dark"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">
+                Login
+              </button>
+              <button type="button" class="btn btn-light">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container px-4 py-5" id="featured-3">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+              Find your purr-fect match with TinCat!
+            </h1>
+            <p class="lead">
+              Discover a world where every cat finds its ideal partner, making
+              meeting your feline companion fun, easy, and just a whisker away.
+            </p>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+            >
+              <button
+                type="button"
+                class="btn btn-secondary btn-lg px-4 me-md-2 fw-bold"
+              >
+                Try It Free
+              </button>
+              <button type="button" class="btn btn-dark btn-lg px-4">
+                Contact Us
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img
+              class="rounded-lg-3"
+              src="https://preview.redd.it/ive-started-compiling-some-of-the-cats-ive-seen-on-tinder-v0-s8y27ttilpea1.jpg?width=640&crop=smart&auto=webp&s=e5a36a80a9e50a9571a9fb5f2cb9207c29406b4d"
+              alt="tinder kitty image"
+              width="250"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Headlines Section -->
+    <section id="headlines">
+      <div
+        class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+      >
+        <div class="my-3 py-3">
+          <h2 class="display-5">Best Cat Matching you can find</h2>
+          <p class="lead">
+            Discover the ultimate platform for feline matchmaking, where every
+            cat finds its perfect partner.
+          </p>
+        </div>
+        <img
+          width="620"
+          style="border-radius: 21px 21px 0 0"
+          src="./images/Trial1-Recovered_copy_1600x.webp"
+        />
+      </div>
+      <div
+        class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+      >
+        <div class="my-3 p-3">
+          <h2 class="display-5">Your kitty deserves the best</h2>
+          <p class="lead">
+            Give your feline friend the premium experience they deserve with our
+            exclusive features.
+          </p>
+        </div>
+        <img
+          width="620"
+          style="border-radius: 21px 21px 0 0"
+          src="./images/silly-cats-v0-692zjh3ufxpa1.jpg"
+        />
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container py-5">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+          <p class="fs-5 text-body-secondary">
+            match your cat with the purr-fect partner, enjoying exclusive
+            features designed to make feline matchmaking a breeze.
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                  $0<small class="text-body-secondary fw-light">/mo</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Unlimited likes</li>
+                  <li>3 allowed matchings</li>
+                  <li>Flexible kitty profile customization</li>
+                  <li>Online support at your service</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-light"
+                >
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">TinCat Pro</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                  $10<small class="text-body-secondary fw-light">/mo</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Unlimited likes & super likes</li>
+                  <li>Wider search radius</li>
+                  <li>Unlimited matchings</li>
+                  <li>Priority support</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-secondary">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-secondary">
+              <div class="card-header py-3 text-bg-secondary border-secondary">
+                <h4 class="my-0 fw-normal">TinCat Pro +</h4>
+              </div>
+              <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                  $20<small class="text-body-secondary fw-light">/mo</small>
+                </h2>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>All TinCat Pro features</li>
+                  <li>Gold Verification Badge</li>
+                  <li>Phone and email support</li>
+                  <li>Prioritized support</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-secondary">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Comparison Table -->
+      <h2 class="display-6 text-center mb-4">Compare plans</h2>
+      <div class="container py-5">
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%"></th>
+                <th style="width: 22%">Free</th>
+                <th style="width: 22%">Pro</th>
+                <th style="width: 22%">Pro +</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Unlimited likes</th>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Unlimited matches</th>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Super Likes</th>
+                <td>
+                  <svg
+                    class="bi"
+                    width="24"
+                    height="24"
+                    role="img"
+                    aria-label="Included"
+                  >
+                    <use xlink:href="#check"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Wider search</th>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Gold badge</th>
+                <td></td>
+                <td>
+                  <svg
+                    class="bi"
+                    width="24"
+                    height="24"
+                    role="img"
+                    aria-label="Included"
+                  >
+                    <use xlink:href="#check"></use>
+                  </svg>
+                </td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Priority support</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-check-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"
+                    />
+                  </svg>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel -->
+    <section>
+      <h2 class="text-center" style="margin-bottom: 50px">
+        Our happy customers
+      </h2>
+      <div class="container d-flex justify-content-center">
+        <div
+          id="carouselExample"
+          class="carousel slide w-100"
+          data-bs-ride="carousel"
+          style="max-width: 60%"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/caro1.jpg"
+                class="d-block mx-auto rounded img-fluid"
+                alt="..."
+                style="max-height: 900px; object-fit: contain; width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/caro2.jpg"
+                class="d-block mx-auto rounded img-fluid"
+                alt="..."
+                style="max-height: 900px; object-fit: contain; width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/caro3.jpg"
+                class="d-block mx-auto rounded img-fluid"
+                alt="..."
+                style="max-height: 900px; object-fit: contain; width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/caro4.jpg"
+                class="d-block mx-auto rounded img-fluid"
+                alt="..."
+                style="max-height: 900px; object-fit: contain; width: 100%"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits-->
+    <section id="features">
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom" style="margin-top: 50px">
+          Benefits for your kitty
+        </h2>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+        >
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#heart-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Purr-fect Matches
+              </h3>
+              <p>
+                Connect your kitty with compatible feline friends for lifelong
+                companionship and happiness.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#star-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Verified Profiles
+              </h3>
+              <p>
+                All kitty profiles are verified for authenticity, ensuring safe
+                and genuine connections.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#camera-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Photo Gallery
+              </h3>
+              <p>
+                Showcase your kitty’s best moments with a customizable photo
+                gallery on their profile.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#geo-alt-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Nearby Matches
+              </h3>
+              <p>
+                Find feline friends in your area for convenient and local
+                playdates or meetups.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#chat-dots-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Safe Messaging
+              </h3>
+              <p>
+                Enjoy secure and private messaging to arrange playdates and
+                share kitty stories.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#trophy-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Exclusive Badges
+              </h3>
+              <p>
+                Earn fun badges for your kitty’s achievements and milestones in
+                the TinCat community.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#shield-lock-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Privacy First
+              </h3>
+              <p>
+                Your kitty’s data is protected with top-notch security and
+                privacy controls.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use
+                xlink:href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/bootstrap-icons.svg#gift-fill"
+              ></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Special Offers
+              </h3>
+              <p>
+                Access exclusive deals on toys, treats, and accessories for your
+                beloved feline.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-3 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+              aria-label="Bootstrap"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-chat-square-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                />
+                <path
+                  d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"
+                />
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2025 TinCat, Inc</span
+            >
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://instagram.com"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="text-body-secondary"
+                href="https://facebook.com"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>
